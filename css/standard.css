@@ -1,3 +1,7 @@
+html {
+  font-size: large;
+  font-family: "Roboto Condensed", sans-sanrif;
+}
 body {
   margin: 0;
 }
