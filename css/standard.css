@@ -12,3 +12,7 @@ a {
   color: #f0f0f0;
   text-decoration: none;
 }
+
+header {
+  padding: 20px 10px 15px 25px;
+}
