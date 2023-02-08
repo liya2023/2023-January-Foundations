@@ -1,0 +1,22 @@
+html {
+  font-size: large;
+  font-family: "Roboto Condensed", sans-sanrif;
+}
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+header {
+  padding: 20px 10px 15px 25px;
+}
