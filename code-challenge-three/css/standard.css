@@ -1,0 +1,14 @@
+html {
+    font-size: 1em;
+}
+
+body {
+    background-image:url("../images/kitten.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#kitten {
+    font-size: 300%;
+}
