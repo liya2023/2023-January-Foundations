@@ -1,0 +1,25 @@
+.grid-container > div {
+    display: grid;
+    grid-template-areas:
+      "header header header header"
+      "header header header header"
+      "left middle middle right"
+      "footer footer footer footer";
+    gap: 0.25em;
+    background-color:#00a000;
+    padding: 0.25em;
+    text-align: center;
+}
+  
+  html, body {
+    font-family: sans-serif;
+    font-size: 3vh;
+    color: #303030;
+}
+
+.header { grid-area: header; }
+.left { grid-area: left; }
+.middle { grid-area: middle; }
+.right { grid-area: right; }
+.footer-left { grid-area: footer; }
+.footer-right { grid-area: footer;}
