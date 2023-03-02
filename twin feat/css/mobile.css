@@ -1,3 +1,7 @@
+html {
+    font-size: xx-large;
+}
+
 #mobile-nav {
 display: block;
 position: fixed;
@@ -39,4 +43,92 @@ nav > a:first-child {
 
 nav > a:last-child {
     padding-bottom: 0.5em;
+}
+
+.logo {
+    width: 40vw;
+}
+
+article {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.vertical-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tagline {
+    white-space: nowrap;
+}
+
+#bonus {
+    display: block;
+    margin-top: 3em;
+}
+
+#bonus-img {
+    margin-top: 5vh;
+    display: block;
+    width: 100%;
+}
+
+#apps {
+    display: flex;
+    flex-direction: column;
+}
+#apps > .sidebar {
+    display: none;
+}
+
+.stage, .cube {
+    width: 40vw;
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photobox img {
+    height: 40vw;
+    width: auto;
+    left: 50%;
+}
+
+.stage .front {
+    transform: tranlateX(-50%) translateZ(30vw);
+}
+
+.stage .back {
+    transform: tranlateX(-50%) rotateY(180deg) translateZ(30vw);
+}
+
+.stage .top {
+    transform: tranlateX(-50%) rotateY(90deg) translateZ(30vw);
+}
+
+.stage .bottom {
+    transform: tranlateX(-50%) rotateX(-90deg) translateZ(30vw);
+}
+
+.stage .left {
+    transform: tranlateX(-50%) rotateY(-90deg) translateZ(30VW);
+}
+
+.stage .right {
+    transform: tranlateX(-50%) rotateY(90deg) translateZ(30VW);
+}
+
+figcaption {
+    font-size: 1rem;
+}
+
+.photobox {
+    flex-direction: column;
+}
+
+.stage {
+    width: 100%;
 }
