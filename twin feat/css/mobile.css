@@ -52,6 +52,11 @@ nav > a:last-child {
 article {
     padding-left: 5vw;
     padding-right: 5vw;
+    font-size: 1.2em;
+    padding-top: 5vw;
+    height: auto;
+    min-height: 100vh;
+    position: absolute;
 }
 
 .vertical-container {
@@ -70,7 +75,7 @@ article {
     margin-top: 3em;
 }
 
-#bonus-img {
+.bonus-img {
     margin-top: 5vh;
     display: block;
     width: 100%;
@@ -84,11 +89,16 @@ article {
     display: none;
 }
 
-.stage, .cube {
-    width: 40vw;
-    height: 40vw;
+.stage .cube {
+    width: 60vw;
+    height: 60vw;
     margin-left: auto;
     margin-right: auto;
+    animation-delay: 3s;
+}
+
+#about:target .cube {
+    animation-play-state: running;
 }
 
 .photobox img {
@@ -98,37 +108,40 @@ article {
 }
 
 .stage .front {
-    transform: tranlateX(-50%) translateZ(30vw);
+    transform: translateX(-50%) translateZ(30vw);
 }
 
 .stage .back {
-    transform: tranlateX(-50%) rotateY(180deg) translateZ(30vw);
+    transform: translateX(-50%) rotateY(180deg) translateZ(30vw);
 }
 
 .stage .top {
-    transform: tranlateX(-50%) rotateY(90deg) translateZ(30vw);
+    transform: translateX(-50%) rotateY(90deg) translateZ(30vw);
 }
 
 .stage .bottom {
-    transform: tranlateX(-50%) rotateX(-90deg) translateZ(30vw);
+    transform: translateX(-50%) rotateX(-90deg) translateZ(30vw);
 }
 
 .stage .left {
-    transform: tranlateX(-50%) rotateY(-90deg) translateZ(30VW);
+    transform: translateX(-50%) rotateY(-90deg) translateZ(30VW);
 }
 
 .stage .right {
-    transform: tranlateX(-50%) rotateY(90deg) translateZ(30VW);
+    transform: translateX(-50%) rotateY(90deg) translateZ(30VW);
 }
 
 figcaption {
     font-size: 1rem;
+    margin-bottom: 1em;
 }
 
 .photobox {
     flex-direction: column;
+    padding-bottom: 1em;
 }
 
 .stage {
     width: 100%;
 }
+
