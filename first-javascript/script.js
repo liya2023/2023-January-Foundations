@@ -1,11 +1,11 @@
-// console.log("Hello again");
+ //console.log("Hello again");
 
-//var book = "Dracula";
-//var movie;
-//console.log(book);
-//console.log(movie);
-//movie = "Interview with a Vampire";
-//console.log(movie);
+/*var book = "Dracula";
+var movie;
+console.log(book);
+console.log(movie);
+movie = "Interview with a Vampire";
+console.log(movie);*/
 
 //var count = "3";
 //var num = "2";
@@ -84,9 +84,54 @@
 //    console.log("Let's make a pie! We can use the 'Betty Crocker' cookbook!");
 //}
 
-var numOfStudents = 13;
+/*var numOfStudents = 13;
 if (numOfStudents > 20) {
     console.log("Too many students");
 } else if (numOfStudents > 10) {
     console.log("Good number of students");
+}*/
+
+//1
+var movie;
+movie = "Matrix";
+var city;
+city = "New York City";
+var era;
+era = "future";
+console.log(movie);
+console.log(era);
+console.log(city);
+
+//2
+var book = "Milk and Honey";
+var music= "light jazz";
+var time = "evening";
+console.log('I read ' + book + "when listening to " + music + " in the " + time + ".");
+
+//3
+const company {
+    name = "Athena LLC",
+    address = "1234 Fifth Ave, New York, NY 10029",
+    phoneNum = "914-100-1999",
+    numOfEmployees = 500,
+};
+
+//4
+console.log("The name of the company is " + company.name +" .It's located at "+ company.address + " and its phone number is "+  company. phoneNumber + ".");
+console.log("The company has" + numOfEmployees + " employees.");
+
+//5
+const food = ["pizza", "wings", "fries", "salad", "soup"];
+food.pop();
+food.push("cake","icecream","chips");
+food.splice(1,4);
+
+//6
+var = score;
+if(score=100) {
+    console.log("You aced it!");
+} else if(score>=70) {
+    console.log("You passed!");
+} else(score<70) {
+    console.log("I'm sorry, you didn't pass.");
 }
