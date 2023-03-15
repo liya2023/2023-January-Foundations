@@ -91,8 +91,8 @@ if (numOfStudents > 20) {
     console.log("Good number of students");
 }*/
 
-//1
-var movie;
+
+/*var movie;
 movie = "Matrix";
 var city;
 city = "New York City";
@@ -109,29 +109,100 @@ var time = "evening";
 console.log('I read ' + book + "when listening to " + music + " in the " + time + ".");
 
 //3
-const company {
-    name = "Athena LLC",
-    address = "1234 Fifth Ave, New York, NY 10029",
-    phoneNum = "914-100-1999",
-    numOfEmployees = 500,
+const company = {
+    name: "Athena LLC",
+    address: {
+       streetAddress:  "1234 Fifth Ave",
+       city: "New York",
+       state: "NY",
+       zip: "10029"
+    },
+    phoneNum: "914-100-1999",
+    numOfEmployees: 500,
 };
 
 //4
-console.log("The name of the company is " + company.name +" .It's located at "+ company.address + " and its phone number is "+  company. phoneNumber + ".");
-console.log("The company has" + numOfEmployees + " employees.");
+console.log("The name of the company is " + company.name +" .It's located at "+ company.address.streetAddress + " " + 
+company.address.city + " " + company.address.state + " " + company.address.zip + " and its phone number is "+  company. phoneNumber + "." + 
+"The company has" + numOfEmployees + " employees.");
 
+console.log(`The name of the company is ${company.name}. It has ${company.numOfEmployees}`);
 //5
 const food = ["pizza", "wings", "fries", "salad", "soup"];
 food.pop();
+console.log(food);
 food.push("cake","icecream","chips");
+console.log(food);
 food.splice(1,4);
+console.log(food);
 
 //6
-var = score;
+var score = 82;
 if(score=100) {
     console.log("You aced it!");
 } else if(score>=70) {
     console.log("You passed!");
-} else(score<70) {
+} else {
     console.log("I'm sorry, you didn't pass.");
 }
+for (var i = 1; i <= 10; i++) {
+    console.log("i is now " + 1);
+}
+console.log('The loop has ended');
+
+for (var i = 10; i >= 1; i--) {
+    console.log("i is now " + i); 
+} 
+
+for (var i = 3; i < 25; i+=3) {
+    console.log("i is now " + i);
+} 
+
+var cars = ["Toyota", "Nissan", "Honda", "Subaru"];
+for (var i = 0; i< cars.length; i++) {
+    console.log("Cars " + (i+1) + " is a " +cars[i]);
+}
+console.log("Thats's all the cars."); */
+
+for (var i = 1; i <= 20; i++) {
+    if (i % 2 == 0) {
+        console.log(i + " is even.");
+    } else {
+        console.log(i + " is odd.");
+    }
+}
+console.log("That's all folks!");
+
+console.log(8/5);
+console.log(8 % 5);
+console.log(4 % 2);
+console.log(3 % 2); 
+
+var numMonkeys = 8;
+while (numMonkeys > 0) {
+    console.log(numMonkeys + " little monkeys jumping on the bed.");
+    numMonkeys--;
+}
+console.log("no more monkeys jumping on the bed"); 
+
+var numBooks = 11;
+while (numBooks <10) {
+    console.log("number of books is " + numBooks);
+    numBooks++;
+}
+console.log("while loop ended"); 
+
+var numBooks = 11;
+do {
+    console.log("Number of books is " + numBooks);
+} while (numBooks < 10);
+console.log("Do while loop ended.");
+
+/*for (var i = 3; i <= 100; i++) {
+    if (i % 3 == 0) {
+        console.log(i + "Fizz");
+    } else (i % 5 == 0) {  
+        console.log(i + "Buzz");
+    }
+}
+*/
