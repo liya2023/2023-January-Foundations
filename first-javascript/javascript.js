@@ -1,7 +1,11 @@
-for (var i = 3; i <= 100; i++) {
-    if (i % 3 == 0) {
+for (var i = 1; i <= 100; i++) {
+    if (i % 15 == 0) {
+        console.log(i + "FizzBuzz");
+    } else if ( i % 3 == 0) {
         console.log(i + "Fizz");
-    } else (i % 5 == 0 ) {
+    } else if (i % 5 == 0 ) {
         console.log(i + "Buzz");
+    } else {
+        console.log(i);
     }
 }

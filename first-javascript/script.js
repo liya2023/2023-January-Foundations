@@ -162,7 +162,7 @@ var cars = ["Toyota", "Nissan", "Honda", "Subaru"];
 for (var i = 0; i< cars.length; i++) {
     console.log("Cars " + (i+1) + " is a " +cars[i]);
 }
-console.log("Thats's all the cars."); */
+console.log("Thats's all the cars."); 
 
 for (var i = 1; i <= 20; i++) {
     if (i % 2 == 0) {
@@ -198,11 +198,112 @@ do {
 } while (numBooks < 10);
 console.log("Do while loop ended.");
 
-/*for (var i = 3; i <= 100; i++) {
-    if (i % 3 == 0) {
-        console.log(i + "Fizz");
-    } else (i % 5 == 0) {  
+for (var i = 1; i <= 100; i++) {
+    if (i % 15 == 0) {
+        console.log(i + "FizzBuzz");
+    } else if(i % 5 == 0) {  
         console.log(i + "Buzz");
+    } else if(i % 3 == 0) {
+        console.log(i + "Fizz");
     }
+} 
+
+function printHelloWorld() {
+    console.log("Hello World"); 
+} 
+
+printHelloWorld();
+
+function add3Plus5() {
+    var total = 3 + 5;
+    console.log("Total is " + total);
 }
-*/
+add3Plus5();
+
+function addTwoNumbers(num1, num2) {
+    var total = num1 + num2;
+    console.log("Total is " + total);
+    return total;
+}
+
+addTwoNumbers(7, 12); 
+
+var price = addTwoNumbers(7, 12) 
+    console.log("The price is " + price);
+
+
+addTwoNumbers(7,12); 
+
+var houseArea;
+var housePerimeter;
+
+function getAreaOfHouse(length, width) {
+    var area = length * width;
+    return area;
+}
+
+function getPerimeterOfHouse(length,width) {
+    var perimeter = (2 * length) + (2 * width);
+    return perimeter;
+}
+
+var houseLength = 30;
+var houseWidth = 15;
+
+houseArea = getAreaOfHouse(houseLength, houseWidth);
+housePerimeter = getPerimeterOfHouse(houseLength,houseWidth);
+
+console.log(`My house is ${houseLength} feet by ${houseWidth} feet.` +
+` It has an area of ${houseArea} square feet and a perimeter of ${housePerimeter} feet.`);
+
+console.log("My house is " + houseLength + " feet by " + houseWidth + "feet."); 
+
+var greeting = "Hello";
+function sayGreeting() {
+    console.log(greeting);
+}
+sayGreeting();
+console.log(greeting); 
+
+function sayGoodbye() {
+    var goodBye = "So long!";
+    console.log(goodBye);
+}
+sayGoodbye();
+console.log(goodBye);
+
+var total = 3;
+function getTotal() {
+    var total = 5;
+    console.log("Total in function = " + total);
+}
+
+getTotal();
+console.log("Total outside function = " + total);
+
+function getClassGrade() {
+} 
+
+function getMeasurements(length,width) {
+    if(length > 40 && width > 20) {
+        var perimeter = 2 * length + 2 * width;
+    } else {
+        console.log("You havetoo small a house to care about the perimeter.");
+  
+  console.log("The perimeter of your house is " + perimeter + " feet.");  }
+} 
+getMeasurements(50, 50); 
+
+var numbers = [1, 2, 3, 4, 5];
+numbers.forEach(function(number){
+    console.log("The number was " + number);
+    number *=number;
+    console.log("But now it's " + number);
+
+});
+
+numbers.forEach((number) => {
+    console.log("The number was" + number);
+    number *=number;
+    console.log("But now it's " +number);
+});  */
