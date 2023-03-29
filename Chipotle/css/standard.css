@@ -4,6 +4,7 @@ html,body {
     font-size: 1.5vh;
     color:white;
     text-decoration: none;
+    overflow: hidden;
 }
 #home {
     background-image: url("../images/background.jpg");
@@ -22,20 +23,28 @@ html,body {
     top: 0;
     z-index: 2;
     height: 10em;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 
 .flex-container > .nav1 {
     position: fixed;
     top: 5px;
     right: 0;
-    width: 100%;
+    width: 200px;
     font-size: 10px;
     display: flex;
-    justify-content: flex-end;
+  
     background-color: white;
     text-decoration: none;
+    color: brown;
 }
+
+.nav1 > a
+{
+    margin: 0px 4px 0px 4px;
+
+}
+
 .flex-container > .nav2 {
     position: fixed;
     top: 15px;
@@ -49,9 +58,36 @@ html,body {
     text-decoration: none;
 }
 
+.nav2>a:nth-last-child(1),
+.nav2>a:nth-last-child(2),
+.nav2>a:nth-last-child(3)
+{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
  
 header > nav1 > a:last-child {
     margin-right: 10vw;
+}
+
+.nav2 > a:first-child
+{
+    padding-left: 150px;
+}
+
+.nav2 a:last-child
+{
+    width: 150px;
+}
+
+.nav2 > a
+{
+    text-decoration: none;
+    color: brown;
+    padding: 4px;
 }
 
 .nav3 {
