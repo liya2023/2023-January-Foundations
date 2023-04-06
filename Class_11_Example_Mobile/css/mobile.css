@@ -49,7 +49,8 @@ nav {
 
 .teaser {
     display: flex;
-    
+    flex-direction: column;
+    transform: translate(-50%, -4em);
 }
 .teaser > div {
     flex-direction: column
