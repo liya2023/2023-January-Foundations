@@ -13,6 +13,49 @@ html,body {
     background-position: center top;
 }
 
+nav {
+    background: #000060;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    
+    height: auto;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: 2;
+    
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-left: 1px solid gray;
+    text-align: center;
+    color: white;
+    transition: color .5s;
+    font-size: 48px;
+    
+}
+
+nav > a {
+    
+    margin-right: 3vw;
+    /*line-height: 5em;*/
+    vertical-align: middle;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 1px 1px 2px #808080;
+}
+
+nav > a:first-child {
+    border-left: 0;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -37,13 +80,7 @@ header > nav > a:nth-last-child(2) {
     margin-left: 3vw;
 }
 
-nav > a {
-    color: white;
-    text-decoration: none;
-    margin-right: 3vw;
-    line-height: 5em;
-    vertical-align: middle;
-}
+
 
 main {
     font-size: 2em;
