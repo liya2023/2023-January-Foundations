@@ -19,17 +19,9 @@ header {
     left: 0;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: blue;
-    text-align: center;
-}
-
-header > span {
-    margin-left: 3vw;
-    font-size: 2em;
-    line-height: 5rem;
-    vertical-align: middle;
 }
 
 header > nav > a:last-child {
@@ -100,7 +92,18 @@ footer > div {
     text-align: center;
 }
 
-#logo {
+div #logo {
     position: fixed;
-    margin-left: 0;
+    top: 0;
+    z-index: 2;
+    height: 8em;
+    left: 1px;
 }
+
+/*header > div {
+    position: fixed;
+    font-family: fantasy;
+    font-weight: bold;
+    left: 20px;
+    color:aliceblue;
+}*/
