@@ -95,10 +95,11 @@ footer > div {
 
 div #logo {
     position: fixed;
-    top: 0;
     z-index: 2;
-    height: 8em;
-    left: 1px;
+    height: 7em;
+    top: 4px;
+    left: 20px;
+    border-radius: 50%;
 }
 
 /*header > div {
