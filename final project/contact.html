@@ -12,7 +12,8 @@
 <body>
         <header>
             <div>
-                <img id="logo" src="./images/logo.png" alt="logo"> Athena Media
+                <img id="logo" src="./images/logo.png" alt="logo">
+                <span id="logoTitle">Athena<hr/>Media</span>
             </div>
             <nav>
                 <a href="index.html">Home</a>
@@ -38,26 +39,24 @@
             <article id="contact">
                 <div class="boxes">
                     <div class="side1">
-                        <h3><img src="" alt=""></h3>
+                        
                         <h3>CONTACT US</h3>
                         <p>
                             Completing the following survey about your business social media needs!
                         </p>
-                
-                    
-                        <form action="http://www.mccinfo.net/webresources/cg1-bin/formmail.asp" method="post">
+                        <form action="/example.asp" method="post">
                             <label for="firstname" class="enterInfo">
                                 First Name:
-                                <input type="text" id="firstname" name="firstname" required>
                             </label>
+                            <input type="text" id="firstname" name="firstname" required>
                             <label for="lastname" class="enterInfo">
                                 Last Name:
-                                <input type="text" id="lastname" name="lastname" required>
                             </label>
+                            <input type="text" id="lastname" name="lastname" required>
                             <label for="email" class="enterInfo">
                                 Email:
-                                <input type="text" id="email" name="email" required>
                             </label>
+                            <input type="text" id="email" name="email" required>
                             <fieldset>
                                 <legend>Select Your Favorite Types of Music To Stream</legend>
                                 <input type="checkbox" name="musicType" id="pop" value="pop">
@@ -98,7 +97,7 @@
                             </fieldset>
                             <fieldset>
                                 <legend> What Role Does Music Play In Your Life?</legend>
-                                <textarea name="comments" id="comments" cols="40" rows="5"></textarea>
+                                <textarea name="comments" id="comments" style="width:100%;height:100px;"></textarea>
                             </fieldset>
                             <button type="submit" id="submit">Submit Form</button>
                             <button type="reset" id="reset">Clear Form</button>

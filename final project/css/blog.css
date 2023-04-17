@@ -87,3 +87,18 @@ div #logo {
     font-size: 1em;
     padding: 1em;
 }
+
+#logoTitle
+{
+    position: fixed;
+    top: 18px;
+    left: 104px;
+    color: cyan;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#logoTitle hr
+{
+    margin: 0px;
+}
