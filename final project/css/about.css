@@ -69,23 +69,28 @@ div #logo {
     border-radius: 50%;
 }
 .boxes {
-    padding-top: 1rem;
+    padding-top: 0.2rem;
     padding-bottom: 2rem;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    font-size: 1.2rem;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    font-size: 17px;
     display: flex;
     justify-content: space-around;
     align-items: stretch;
+    flex-direction: column;
+    margin-top: 60px;
 }
 
 .side1, .side2 {
-    background-color: #b7c4cf;
+    background-color: rgba(183,192,207,0.5);
     box-sizing: border-box;
-    min-width: 25%;
-    max-width: 35%;
-    font-size: 1em;
+    min-width: 40%;
+    max-width: 55%;
     padding: 1em;
+    margin: 20px;
+    border: 2px solid brown;
+    border-radius: 6px;
+    box-shadow: -4px 4px 4px rgba(0,0,0,0.5);
 }
 
 #logoTitle

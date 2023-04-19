@@ -65,14 +65,15 @@ main > h2 {
 }
 
 main > a {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     width: 20ch;
     border: 5px solid;
-    border-radius: 2.5em;
+    border-radius: 1.5em;
     background-color: deeppink;
-    border-color: deeppink;
+    border-color: white;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.8);
     color: white;
     text-decoration: none;
     text-align: center;
@@ -80,6 +81,12 @@ main > a {
     left: 50%;
     top: 65%;
     transform: translate(-50%, calc(-50% + 2em));
+}
+
+main > a:hover {
+    background-color: white;
+    color:deeppink;
+    border-color: deeppink;
 }
 
 footer > div {
@@ -117,11 +124,4 @@ div #logo {
     margin: 0px;
 }
 
-/*header > div {
-    position: fixed;
-    font-family: fantasy;
-    font-weight: bold;
-    left: 20px;
-    color:aliceblue;
-}*/
 
