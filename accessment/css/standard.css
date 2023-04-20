@@ -1,0 +1,67 @@
+#home {
+    background-image: url("../images/playful-kitten-6683.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat";
+    font-size: 48px;
+}
+.orangetext {
+    color:darkorange;
+    text-shadow: 4px 4px 4px black;
+}
+.blacktext {
+    color: black;
+    font-size: 18px
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    font-size: 36px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+a {
+    text-decoration: none;
+    text-shadow:3px 3px 3px black;
+    color: darkorange;
+}
+
+#logo {
+   height: 48px;
+   width: 96px;
+}
+
+#logo:hover {
+    transform:rotateY(360deg);
+    transition: all 2s linear;
+}
+
+nav > a:hover {
+    transform:translateY(-30px);
+    transition: all 1s linear;
+}
+
+#about {
+    background-image: url(../images/kitten-flying.jpg);
+    background-size: cover;
+    background-position: relative;
+}
+
+#schedule {
+    display: none;
+}
+
+#schedule:target {
+    display: block;
+}
