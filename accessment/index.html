@@ -5,23 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Accessment Ya Li</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/orange.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/standard.css">  
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </style>
 </head>
 <body>
     <article id="home">
         <header>
-            <h1>
-                <span class="orangetext">Orange <span style="color:black";> is the new  </span><span class="orangetext"> Cat</span>
-            </h1>    
-            <h2>
-                <span class="blacktext">Only on <img id="logo" src="./images/netflix.png" alt="logo"></span>
-            </h2>
+            <div>
+                <span class="orange">Orange</span><span class="black"> is the new </span><span class="orange">Cat</span>
+            <br>  
+                <span id="onlyon">Only on</span><img id="logo" src="./images/netflix.png" alt="logo">
+            </div>
         </header>
-        <div class="popup" onclick="myFunction()">
-            <span class="popuptext" id="myPopup"></span>
+        <div id="schedule" class="popup">
+            <table>
+                <tr>
+                    <td>Silly Kitty</td>
+                    <td>The first episode in which we meet a very silly kitty.</td>
+                    <td>07/05/2016</td>
+                <tr>
+                <tr>
+                    <td>Trouble in Orange</td>
+                    <td>Silly kitty gets lost and spends the night in kitty lockup</td>
+                    <td>07/12/2016</td>
+                </tr>
+                <tr>
+                    <td>Claws of Fury</td>
+                    <td>Ninja cat attacks the home and silly kitty must defend his family!</td>
+                    <td>07/19/2016</td>
+                </tr>
+            </table>
+            <a class="close" href="#home"><img src="./images/close.png"></a>
+        </div>
+        <div id="contact" class="popup">
+            (402)555-5555
+            <i class="fa fa-facebook"></i><i class="fa fa-twitter"></i></i>
+            <a class="close" href="#home"><img src="./images/close.png"></a>
         </div>
         <div>
             <nav>
@@ -29,8 +55,20 @@
                 <a href="#about">About</a>
                 <a href="#schedule">Schedule</a>
                 <a href="#contact">Contact</a>
+                
             </nav>
+            <div id="follow"><img src="./images/pawprint.png"></div>
+            
         </div>
+
     </article>
+    <article id="about">
+        <div>
+            Kitty is no ordinary kitten. He's a<br>super-hero, too!
+        </div>
+
+    </article>
+
+    
 </body>
 </html>

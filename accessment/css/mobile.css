@@ -1,0 +1,41 @@
+body {
+    background-image: url(../images/kitten-v.jpg);
+    margin: 0;
+}
+
+#about {
+    background-image: url(../images/kitten-flying-v.jpg);
+}
+
+.popup {
+    font-size: 5vw;
+}
+
+#contact:target {
+    left: 25%;
+}
+
+nav {
+    font-size: large;
+}
+
+span {
+    font-size: large;
+}
+
+#onlyon, .black {
+    font-size: large;
+}
+
+#logo {
+    height: 5vw;
+    width: 12vw;
+}
+
+#schedule {
+    font-size: 3vw;
+}
+
+#about > div {
+    font-size: medium;
+}
