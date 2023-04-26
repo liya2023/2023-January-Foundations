@@ -3,7 +3,7 @@ html,body {
     font-family: sans-serif;
     font-size: 1.5vh;
     color: navy;
-    background-color:azure;
+    background-color: lightsteelblue;
     margin-bottom: 10vh;
 }
 #pic {
@@ -103,7 +103,7 @@ div #logo {
 }
 
 #aboutus>div {
-    border: 3px solid orange;
+    border: 5px solid white;
     border-radius: 6px;
     margin: 1vw;
     box-shadow: 4px 4px 12px darkgrey;
@@ -120,6 +120,6 @@ div #logo {
 
 .abouttxt
 {
-    font-size: 16px;
+    font-size: 22px;
     padding: 8px;
 }
